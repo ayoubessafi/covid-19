@@ -25,6 +25,12 @@ gulp.task('watch', function(){
 
 });
 
+gulp.task('coppyHtml',async function(){
+    gulp.src('src/*.html')
+    .pipe(gulp.dest('dist'));
+});
+
+
 // gulp.task('build', gulp.series('sass', 'style','watch'));
 
 
