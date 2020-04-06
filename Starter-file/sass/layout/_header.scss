@@ -1,0 +1,94 @@
+@import 'abstracts/variables';
+
+.headerHero {
+    padding-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bare2 {
+    background-color: $color-yellow;
+    padding: 1%;
+    
+    h4{
+        color: $color-bleu;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
+        padding: 1%;
+    }
+    p{
+        font-size: 1em;
+        text-align: center;
+        padding: 1%;  
+    } 
+}
+
+.txt {
+    padding-left: 5em;
+    text-align: center;
+    align-self: center;
+    justify-content: flex-start;
+
+    img{
+        padding: 2%; 
+    }
+
+    &__title1 {
+        font-size: 1.5em;
+        font-weight: 900;
+        color: $color-bleu;
+    }
+
+    &__title2 {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: $color-gray;
+        font-family: 'Cairo', sans-serif;
+    }
+
+}
+.img-doc{
+    width: 50vw;
+    padding-right: 5em;
+}
+
+.btn1{
+    @include btn1;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .bare2{
+        padding: 1em;
+        h4{
+            font-size: 1.5em;
+        }
+    }
+
+    .headerHero{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .txt{
+        padding-left: 0;
+        &__title1{
+            width: 98%;
+        }
+        &__title2{
+            
+            font-size: em;
+            font-weight:700;
+        }
+    }
+    .img-doc{
+        padding-right:0;
+        padding-left: 1em;
+        width: 90%;
+        
+    }
+
+}

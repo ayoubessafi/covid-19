@@ -6,7 +6,7 @@ const concat = require('gulp-concat');
 sass.compiler = require('node-sass');
 
 gulp.task("sass", function(){
-   return gulp.src ("sass/*.scss")
+   return gulp.src ("sass/**/*.scss")
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('src/css'));
 });
@@ -20,7 +20,7 @@ gulp.task('style', function(){
 });
 
 gulp.task('watch', function(){
-    gulp.watch('sass/*scss',gulp.series(['sass','style']))
+    gulp.watch('sass/**/*scss',gulp.series(['sass','style']))
     
 
 });
@@ -31,6 +31,6 @@ gulp.task('coppyHtml',async function(){
 });
 
 
-// gulp.task('build', gulp.series('sass', 'style','watch'));
+gulp.task('build', gulp.series('sass', 'style','watch'));
 
 

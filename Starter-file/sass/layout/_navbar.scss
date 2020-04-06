@@ -1,0 +1,22 @@
+.bare1{
+    &__logo{
+        height: 3em;
+        margin: 0.5% auto auto 2%;
+    }
+    background-image: url("/Starter-file/src/img/Merged\ bar-43@2x.png");
+    background-size: cover;
+}
+.bare1 ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    float: right;
+    margin-top: 1%;
+
+    li a{
+        text-decoration: none;
+        margin: 2em;
+
+    }
+} 
