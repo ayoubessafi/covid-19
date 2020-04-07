@@ -31,6 +31,6 @@ gulp.task('coppyHtml',async function(){
 });
 
 
-gulp.task('build', gulp.series('sass', 'style','watch'));
+gulp.task('build', gulp.series('sass', 'style','coppyHtml'));
 
 

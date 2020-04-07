@@ -1,7 +1,7 @@
 .symptome{
     h2{
         text-align: center;
-        color:#1078ad;
+        color:$color-bleu;
         padding-top: 2em;
     }
 
@@ -37,57 +37,11 @@
     
 }
 
-// .recomndation {
-//     background-color: $color-bleu;
-//     width: 100%;
-//     h2 {
-//         text-align: center;
-//         color: white;
-//         padding-top: 1em;
-//         padding-bottom: 2em;
-//     }
-
-//     main {
-//         display: grid;
-//         grid-template-columns: repeat(2, 50%);
-
-//         .infList {
-//             padding-left: 6em;
-//             color: white;
-//             &__par {
-//                 text-align: center;
-//                 padding-bottom: 1em;
-//                 font-weight: 900;
-//             }
-//             &__list {
-//                 list-style: none;
-
-//                 li {
-//                     margin: 1em 0;
-//                 }
-//             }
-//         }
-
-//         .call {
-//             text-align: center;
-
-//             h3 {
-//                 color: $color-yellow;
-//             } 
-//             .btn2{
-                
-//                 @include btn2;
-//                 margin-left: 15em;
-                
-//             }
-//         }
-//     }
-// }
 .recomm{
     display: flex;
     flex-direction: column;
          &__title{
-             background-color:  #1078AD;
+             background-color:  $color-bleu;
              padding-bottom: .5em;
              
            h1{
@@ -95,37 +49,30 @@
                color:#fff;
                margin: 1em;
            }
-          
-     }
+        }
      &__conse{
         h4{
             color: #fff;
             padding-left: 15em;
-
-            
-    
-    
-       }
+        }
     }
       .list{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          padding: 2em;
-          &__cons{
-         ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2em;
+        &__cons{
+               ul{
          
              font-weight: bold;
              color: #fff;
              line-height: 2em;
              list-style: none;
-           span{  
-             color: #F4CF1B;
-             
-             
-             }
-         }    
-    }
+               span{  
+             color: $color-yellow;
+            }
+         }
+        }
     &__appel{
     
         display: flex;
@@ -136,39 +83,38 @@
         font-weight: bold;
     
         h3{
-            color: yellow;
-            
-           
+            color:$color-yellow;
         }
         &--num1{
-            background-color:yellow;
+            background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
-            color: #1078AD;
+            color: $color-bleu;
            
         }
         &--num2{
-            background-color:yellow;
+            background-color:$color-bleu;
             border-radius: .25em;
             width: 10em;
-            color: #1078AD;
-        }&--num3{
-            background-color:yellow;
+            color: $color-bleu
+        }
+        &--num3{
+            background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
-            color: #1078AD;
+            color: $color-bleu
         }
     }
       }
-      .reco{   
+    .reco{   
     
-        background-color: #96C5DC;
+        background-color: $color-back1;
         
         &__title2{
             text-align: center;
             font-weight: bold;
             font-size: 1.5em;
-            color: #1078AD;
+            color: $color-bleu;
             margin: 2em;
     
         }
@@ -183,25 +129,10 @@
             
             .btn3{
                 @include btn3;
-    
             }
-           
-         
-    
         }
-    
-    
-    
-    
-    
-    
-      }
-    
-    
-    
-    
-    
     }
+}
 
 
 @media only screen and (max-width: 600px) {

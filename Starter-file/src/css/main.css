@@ -30,8 +30,27 @@ btn2 {
   border-radius: 1em;
   color: #1078AD; }
 
+btn3 {
+  background-color: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  border: none;
+  color: #1078AD;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 17em;
+  border-radius: .25em;
+  border: 2px solid #011b8d; }
+  btn3:hover {
+    background-color: #1078AD;
+    color: #fff; }
+
 .bare1 {
-  background-image: url("/Starter-file/src/img/Merged bar-43@2x.png");
+  background-image: url("/Starter-file/src/img/bare.png");
   background-size: cover; }
   .bare1__logo {
     height: 3em;
@@ -126,7 +145,7 @@ btn2 {
 
 .symptome h2 {
   text-align: center;
-  color: #1078ad;
+  color: #1078AD;
   padding-top: 2em; }
 
 .symptome main {
@@ -181,24 +200,24 @@ btn2 {
       text-align: center;
       font-weight: bold; }
       .recomm .list__appel h3 {
-        color: yellow; }
+        color: #F4CF1B; }
       .recomm .list__appel--num1 {
-        background-color: yellow;
+        background-color: #F4CF1B;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
       .recomm .list__appel--num2 {
-        background-color: yellow;
+        background-color: #1078AD;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
       .recomm .list__appel--num3 {
-        background-color: yellow;
+        background-color: #F4CF1B;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
   .recomm .reco {
-    background-color: #96C5DC; }
+    background-color: #96c5dc; }
     .recomm .reco__title2 {
       text-align: center;
       font-weight: bold;
@@ -250,7 +269,7 @@ btn2 {
   padding-top: 2em; }
   .footer h2 {
     text-align: center;
-    color: #1078ad; }
+    color: #1078AD; }
   .footer .first-tap {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -258,12 +277,12 @@ btn2 {
     .footer .first-tap .inf-contact {
       text-align: center; }
       .footer .first-tap .inf-contact h3 {
-        color: #1078ad;
+        color: #1078AD;
         margin-bottom: 1em; }
       .footer .first-tap .inf-contact .inf-nmr {
         margin-bottom: .5em; }
       .footer .first-tap .inf-contact .nmr {
-        color: #22ff22;
+        color: #369D53;
         margin-bottom: .5em; }
     .footer .first-tap .ret {
       text-align: center;
@@ -272,10 +291,119 @@ btn2 {
         list-style: none; }
         .footer .first-tap .ret ul li {
           padding: 1em 0;
-          border-bottom: solid #1078ad;
-          margin: 0 9em; }
+          border-bottom: solid #96c5dc;
+          margin: 0 3em; }
+          .footer .first-tap .ret ul li a {
+            text-decoration: none; }
   .footer .last-tap {
-    background-color: #1078ad;
+    background-color: #1078AD;
     width: 100%;
     height: 1em;
     margin-top: 1em; }
+
+#prot {
+  padding-top: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  #prot h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #1078AD; }
+  #prot .Protege {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%); }
+    #prot .Protege .card {
+      padding: 3em; }
+      #prot .Protege .card__img {
+        text-align: center;
+        padding-right: 1em;
+        padding-bottom: 1em; }
+        #prot .Protege .card__img img {
+          width: 150px; }
+      #prot .Protege .card__para {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #1078AD;
+        text-align: center; }
+  #prot .card-S {
+    text-align: center; }
+    #prot .card-S__img {
+      text-align: center;
+      padding-right: 1em;
+      padding-bottom: 1em; }
+      #prot .card-S__img img {
+        width: 150px; }
+    #prot .card-S__para {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #1078AD;
+      text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  #prot h1 {
+    font-size: 1.6em; }
+  #prot .Protege {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+    #prot .Protege .card {
+      padding: 3em; }
+      #prot .Protege .card__img {
+        text-align: center;
+        padding-right: 1em;
+        padding-bottom: 1em; }
+        #prot .Protege .card__img img {
+          width: 80px; }
+      #prot .Protege .card__para {
+        font-size: 1em;
+        font-weight: bold;
+        color: #1078AD;
+        text-align: center; }
+  #prot .card-S {
+    text-align: center; }
+    #prot .card-S__img {
+      text-align: center;
+      padding-right: 1em;
+      padding-bottom: 1em; }
+      #prot .card-S__img img {
+        width: 80px; }
+    #prot .card-S__para {
+      font-size: 1em;
+      font-weight: bold;
+      color: #1078AD;
+      text-align: center; } }
+
+.info {
+  background-color: #d6ecf5;
+  text-align: center; }
+  .info .text {
+    font-family: sans-serif;
+    padding-top: 2em;
+    font-family: 'Cairo', sans-serif !important; }
+    .info .text h2 {
+      line-height: 3em;
+      font-size: 3em;
+      color: #1078AD; }
+    .info .text p {
+      color: #1078AD;
+      font-size: 2em;
+      font-weight: 400; }
+  .info a {
+    line-height: 5em;
+    background-color: #1078AD;
+    width: 23%;
+    margin-top: 3%;
+    padding: .9%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: .2em;
+    border: #1078AD;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3%;
+    text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 60%;
+    margin-left: 10%;
+    margin-right: 10%; } }
