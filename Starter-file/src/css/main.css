@@ -50,7 +50,7 @@ btn3 {
     color: #fff; }
 
 .bare1 {
-  background-image: url("/Starter-file/src/img/bare.png");
+  background-image: url("../../src/img/Merged bar-1.png");
   background-size: cover; }
   .bare1__logo {
     height: 3em;
@@ -122,6 +122,8 @@ btn3 {
   .btn1:hover {
     background-color: #96c5dc;
     border-radius: 20px; }
+  .btn1 a {
+    text-decoration: none; }
 
 @media only screen and (max-width: 600px) {
   .bare2 {
@@ -248,6 +250,8 @@ btn3 {
         .recomm .reco__btn .btn3:hover {
           background-color: #1078AD;
           color: #fff; }
+        .recomm .reco__btn .btn3 a {
+          text-decoration: none; }
 
 @media only screen and (max-width: 600px) {
   .recomm__conse h4 {
@@ -407,3 +411,132 @@ btn3 {
     font-size: 60%;
     margin-left: 10%;
     margin-right: 10%; } }
+
+.test-start .Preambule {
+  text-align: center;
+  background-color: #e9ecef;
+  margin: 1em 2em;
+  padding: 4em;
+  width: 60%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%); }
+  .test-start .Preambule h2 {
+    color: #1078AD; }
+  .test-start .Preambule p {
+    padding: 2em 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em; }
+
+.test-start .start {
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  background-color: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  border: none;
+  color: #1078AD;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 17em;
+  border-radius: .25em;
+  border: 2px solid #011b8d; }
+  .test-start .start:hover {
+    background-color: #1078AD;
+    color: #fff; }
+
+.test-start .steps {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .test-start .steps .shadow {
+    background-color: red; }
+  .test-start .steps img {
+    width: 3em;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%); }
+  .test-start .steps h2 {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    color: #1273eb; }
+
+.test {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1em;
+  margin-top: .6em;
+  border-radius: 10px; }
+  .test .questionnes {
+    text-align: center;
+    font-weight: 3em;
+    margin: 10em 3em; }
+    .test .questionnes .fex {
+      display: flex;
+      justify-content: center; }
+    .test .questionnes .choix {
+      margin: 1em;
+      padding: 2em 2em;
+      background-color: white;
+      border: solid 2px #1078ad; }
+      .test .questionnes .choix:hover {
+        color: yellow;
+        background-color: #1078ad; }
+    .test .questionnes p {
+      font-size: 1.7em;
+      font-weight: 700;
+      width: 70%;
+      margin: auto;
+      color: #787878; }
+  .test .nextPrecedent .btnSteper {
+    border: solid 2px #1078ad;
+    border-radius: 10px;
+    background-color: #cfe4ef;
+    padding: .7em 3em;
+    color: #1078ad;
+    margin: 0 3em; }
+    .test .nextPrecedent .btnSteper:hover {
+      background-color: #1078ad;
+      color: white; }
+  .test .nextPrecedent .next {
+    float: right; }
+  .test .btnResule .rslBtn {
+    border: solid 2px #1078ad;
+    border-radius: 10px;
+    background-color: #cfe4ef;
+    padding: .7em 3em;
+    color: #1078ad;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+    .test .btnResule .rslBtn:hover {
+      background-color: #1078ad;
+      color: white; }
+
+.remove {
+  display: none; }
+
+.hide {
+  display: none; }
+
+.w3-container {
+  width: 0%; }
+
+.rsltMsg {
+  text-align: center;
+  background-color: #e9ecef;
+  margin: 1em 2em;
+  padding: 1em;
+  width: 60%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%); }
