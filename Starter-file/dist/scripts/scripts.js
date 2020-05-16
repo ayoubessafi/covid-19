@@ -1,3 +1,4 @@
+
 const start = document.querySelector(".start");
 const stepers = document.querySelectorAll(".stepers");
 const preambule = document.querySelector(".Preambule");

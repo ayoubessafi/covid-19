@@ -480,9 +480,6 @@ btn3 {
     text-align: center;
     font-weight: 3em;
     margin: 10em 3em; }
-    .test .questionnes .fex {
-      display: flex;
-      justify-content: center; }
     .test .questionnes .choix {
       margin: 1em;
       padding: 2em 2em;
@@ -509,18 +506,19 @@ btn3 {
       color: white; }
   .test .nextPrecedent .next {
     float: right; }
-  .test .btnResule .rslBtn {
-    border: solid 2px #1078ad;
-    border-radius: 10px;
-    background-color: #cfe4ef;
-    padding: .7em 3em;
-    color: #1078ad;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); }
-    .test .btnResule .rslBtn:hover {
-      background-color: #1078ad;
-      color: white; }
+
+.btnResule .rslBtn {
+  border: solid 2px #1078ad;
+  border-radius: 10px;
+  background-color: #cfe4ef;
+  padding: .7em 3em;
+  color: #1078ad;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+  .btnResule .rslBtn:hover {
+    background-color: #1078ad;
+    color: white; }
 
 .remove {
   display: none; }

@@ -59,12 +59,12 @@
         text-align: center;
         font-weight: 3em;
         margin: 10em 3em;
-        .fex{
-            display: flex;
-            // flex-direction: row;
-            justify-content: center;
+        // .fex{
+        //     display: flex;
+        //     // flex-direction: row;
+        //     justify-content: center;
             
-        }
+        // }
         .choix{
             margin: 1em;
             padding: 2em 2em;
@@ -101,7 +101,10 @@
         }
     }
 
-    .btnResule{
+
+
+} 
+.btnResule{
         .rslBtn{
             border: solid 2px #1078ad;
             border-radius: 10px;
@@ -116,9 +119,8 @@
                 color: white;
             }
         }
-    }
-
 }
+
 
 .remove{
     display: none;
